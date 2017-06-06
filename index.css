@@ -1,0 +1,43 @@
+/*
+* @Author: Administrator
+* @Date:   2017-05-10 10:32:32
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-10 10:43:10
+*/
+.scene{
+	width: 500px;
+	height: 500px;
+	background-color: #efefef;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	margin: 0 auto;
+}
+.block{
+	width: 49px;
+	height: 49px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	float: left;
+}
+.block.safe{
+	-webkit-box-shadow: inset 0 0 50px rgba(0,0,0,.3);
+	-moz-box-shadow:inset 0 0 50px rgba(0,0,0,.3);
+	box-shadow: inset 0 0 50px rgba(0,0,0,.3);
+	color:#fff;
+	text-align: center;
+	line-height: 50px;
+}
+.block.danger{
+	background-color: red;
+}
+.block.flag{
+	background-color: orange;
+}
+.controls{
+	width: 100px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
